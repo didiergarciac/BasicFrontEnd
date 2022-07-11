@@ -1,0 +1,31 @@
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color:#1F618D;
+}
+
+h4 {
+    color:#1F618D;
+    font-size: small;
+}
+h6 {
+    font-size: x-small;
+    color:#1F618D;
+}
+
+p {
+    font-size:x-small;
+}
+
+.ejemploEspecificidad{
+    height: 200px;
+    width: 200px;
+}
+
+#especificidad{
+    font-size: x-small;
+    color:#1F618D;
+}

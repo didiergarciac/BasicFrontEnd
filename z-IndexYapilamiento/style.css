@@ -1,0 +1,45 @@
+/*section {
+    position: absolute;
+}
+Si a estos section le configuramos un position absolute vemos que todos quedaran aplicados*/
+
+/*Si lo que queremos es hacer que uno de los section prevalezca 
+sobre los otros entonces manejamos el z-index*, por ejemplo*/
+
+section {
+    position: absolute;
+}
+
+.one{
+    z-index: 5;
+    background: orange;
+}
+.two{
+    z-index: 4;
+    background: blue;
+}
+.three{
+    z-index: 3;
+    background: gray;
+}
+
+.orange{
+    height: 20px;
+    width: 20px;
+    background: orange;
+    z-index: 5;
+}
+
+.blue{
+    height: 20px;
+    width: 20px;
+    background: #2471A3;
+    z-index: 4;
+}
+
+.gray{
+    height: 20px;
+    width: 20px;
+    background: gray;
+    z-index: 6;
+}

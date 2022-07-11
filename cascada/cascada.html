@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <title>Cascading style sheet</title>
+</head>
+
+<body>
+    <header>
+        <h2>CSS</h2>
+        <h4>Cascading Style sheet</h4>
+    </header>
+    
+    <main>
+        <section>
+            <article>
+                <p>Cascada, orden de las reglas en CSS</p>
+                <h4>Definición de CSS</h4>
+                <p>Los navegadores determinan qué reglas de css deben aplicarse a las etiquetas HTML, el orden
+                    y el origen de clasificación del css, intervienen en este proceso, sin embargo, no todo es
+                    color de rosa. A veces los navegadores entran en conflicto porque no saben qué regla aplicar.
+                </p>
+                <p>Replica de un nuevo cambio</p>
+                <p>
+                    El CSS diría:
+                    <strong>"Creo que estoy causando problemas, así que yo solito buscaré una solución"</strong>
+                </p>
+                <p>Así es como el CSS tiene una manera de lidiar con los conflictos</p>
+            </article>
+            <article>
+                <h6>Especificidad de los selectores</h6>
+                <p>Entre mayor especificidad, mayor va a ser la probabilidad de que sus declaraciones se usen sobre las
+                    demas.
+                </p>
+                <p> 1- X 0 0 0 0 | !Important </p>
+                <p> 2 - X 0 0 0 | Estilos en linea </p>
+                <p> 3 - X 0 0 | #ID </p>
+                <p> 4 - X 0 | Clases, atributos y pseudoclases </p>
+                <p> 5 - X | Elementos y pseudoelementos </p>
+                <p> 6 - 0 | Selector universal </p>
+
+                <p><strong>Ejemplo:</strong></p>
+                <button>Calcular especificidad</button>
+                <a id='especificidad' href="https://specificity.keegan.st/">Calcular especificidad</a>
+                <img class='ejemploEspecificidad' src="/img/ejemploEspecificidad.png" alt="Ejemplo de especificidad">
+            </article>
+        </section>
+        <footer>
+            <p>Diseño realizado por DAGA DESIGN</p>
+        </footer>
+    </main>
+</body>
+
+</html>

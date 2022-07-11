@@ -1,0 +1,13 @@
+div{
+    background: #F1C40F;
+}
+
+
+/*Con las Media Query puede manejar el responsive de mi sistemas, que sea compatible con diferentes dispositivos*/
+/*Por ejemplo, las resoluciones que tengas 301 o más cambiarán a azul, si tiene menos resolución será amarillo. */
+@media(min-width: 301px){
+    div{
+        background: #2471A3;
+    }
+    
+}

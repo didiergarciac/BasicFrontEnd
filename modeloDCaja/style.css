@@ -1,0 +1,44 @@
+
+.cajaUno {
+    width: 200px;
+    height: 200px;
+    background-color:gold;
+    padding: 20px;
+    /*box-sizing: border-box;*/
+    border: 2px solid gray;
+    margin: 3px;
+    display: inline-block;
+}
+.cajaDos {
+    width: 200px;
+    height: 200px;
+    background-color:gray;
+    padding: 20px;
+    /*box-sizing: border-box;*/
+    border:2px solid gray;
+    margin: 3px;
+    display: inline-block;
+}
+
+.cajaTres {
+    width: 200px;
+    height: 200px;
+    background-color:gold;
+    padding: 20px;
+    /*box-sizing: border-box;*/
+    border: 2px solid gray;
+    margin: 3px;
+    display: inline-block;
+}
+
+
+.cajaCuatro {
+    width: 200px;
+    height: 200px;
+    background-color:orange;
+    padding: 20px;
+    /*box-sizing: border-box;*/
+    border: 2px solid gray;
+    margin: 3px;
+    display: inline-block;
+}

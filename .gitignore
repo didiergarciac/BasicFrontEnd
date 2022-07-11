@@ -1,0 +1,26 @@
+# Ignora todos los archivos de texto
+*.txt
+
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# Scalable Vector Graphics
+*.svg
+
+# BMP
+*.bmp
+*.dib
+
+# Portable Document Format
+*.pdf
+
+# ICO
+*.ico
+
+#PNG
+*.png

@@ -1,0 +1,20 @@
+/*Cuando utilizamos en display: flex se respetan las margenes y los elementos se alinean de forma horizontal*/
+/*Cuando utilizamos en display: flexbox no se respetan las margenes y los elementos se alinean de forma vertical*/
+/*Cuando utilizamos en display: grid se respetan las margenes y los elementos se alinean de forma vertical*/
+.container{
+    display: grid; /*Vemos que display flex lo que hace es ubicar un elemento al lado del otro */
+    /*flex-direction:column; /*Cambiar la orientación de los elementos*/
+}
+.cajaUno {
+margin: 20px;
+background:red;
+color: white;
+padding: 10px;
+}
+
+.cajaDos {
+    margin: 20px;
+    background:blue;
+    color: white;
+    padding: 10px;
+}

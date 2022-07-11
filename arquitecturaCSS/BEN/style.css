@@ -1,0 +1,13 @@
+.card{
+    align-content: center;
+}
+
+.card_image{
+    display:block;
+    margin:auto;
+    border-style: solid;
+}
+
+.card_text{
+    text-align: center;
+}

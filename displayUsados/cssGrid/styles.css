@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color:#1A5276;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.item{
+    background-color:#F1C40F;
+}
+
+.container .item:nth-child(1){
+    grid-column: 1 / 2;
+}
+.container .item:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.container .item:nth-child(3){
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.container .item:nth-child(4){
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.botoncito{
+    background-color:#F1C40F;
+}
+
+.texto1{
+    background-color: #1A5276;
+    height: 200px;
+    width: 200px;
+}
+
+#button_impt{
+    background-color:gray;
+    height: 100px;
+    width: 50px;
+}
+
+#button_impt::after{
+    background-color:red;
+    height: 50px;
+    width: 50px;
+}
